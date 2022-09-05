@@ -3,7 +3,7 @@ import "./App.css";
 
 const Home = () => {
     return (
-        <div>
+        <div className="img">
             <img src="/headline.jpg" alt="" />
         </div>
     );

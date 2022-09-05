@@ -1,22 +1,18 @@
-.header {
-    padding-top: 60px;
-    text-align: center;
-    font-size: larger;
-    font-family: "Euphoria Script", cursive;
-}
-
 body {
-    background-color: silver;
+    background-image: url("./IMG_0847.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #a57c01;
+    background-color: #e9b71ee4;
     font-family: "Euphoria Script", cursive;
+    border-width: 100px;
+    padding: 0px;
 }
 
 .navbar a {
-    float: left;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -47,7 +43,7 @@ body {
 
 .dropdown-content {
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -62,7 +58,25 @@ body {
     text-align: left;
 }
 
-img {
+.img {
     width: 100%;
     height: auto;
+}
+
+.logo {
+    width: 100%;
+    height: 276px;
+}
+
+.container {
+    padding: 0px;
+}
+
+.scotty {
+    padding-top: 15%;
+}
+
+.aboutText {
+    padding-top: 10%;
+    color: white;
 }
