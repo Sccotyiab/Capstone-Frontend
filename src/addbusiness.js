@@ -1,18 +1,32 @@
 const addbusiness = () => {
     return (
         <div className="container">
-            <h1>Come Connect, Be apart ! </h1>
-            <form action="https://mailthis.to/scotyiab@gmail.com" method="POST">
+            <div className="connect">
+                <h1>Come Connect, Be apart ! </h1>
+                <p>
+                    Syracuse is a small town with a lot of talented black owned
+                    businesses. Lets team up and make this space a place where
+                    all our businesses can be highlighted and more than anything
+                    supported ! There is enough room at the tabble for all of us
+                    to eat. So fill the form out below- Pull up a chair and lets
+                    eat - connect, network, grow and make all of our businesses
+                    successful, since thats the real goal- Nore Syracue
+                </p>
+            </div>
+            <form
+                action="https://mailthis.to/noresyracuse@gmail.com"
+                method="POST"
+            >
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-6">
                         <input
                             type="text"
                             placeholder="Owner First and Last name"
-                            name="contect"
+                            name="Owner info"
                             className="form-control"
                         ></input>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6">
                         <input
                             type="text"
                             placeholder="Phone Number"
@@ -20,19 +34,16 @@ const addbusiness = () => {
                             className="form-control"
                         ></input>
                     </div>
-                    <div className="col aboutText">
-                        <h3>Introducing the Creator</h3>
-                    </div>
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-6">
                             <input
                                 type="text"
                                 placeholder="Business Name"
-                                name="business"
+                                name="Name of business"
                                 className="form-control"
                             ></input>
                         </div>
-                        <div className="col-3">
+                        <div className="col-6">
                             <input
                                 type="text"
                                 placeholder="Business Type"
@@ -42,7 +53,7 @@ const addbusiness = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-6">
                             <input
                                 type="text"
                                 placeholder="Business Address"
@@ -50,7 +61,7 @@ const addbusiness = () => {
                                 className="form-control"
                             ></input>
                         </div>
-                        <div className="col-3">
+                        <div className="col-6">
                             <input
                                 type="text"
                                 placeholder="Business website"
@@ -59,7 +70,7 @@ const addbusiness = () => {
                             ></input>
                         </div>
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-12">
                                 <input
                                     type="text"
                                     placeholder="Short Descripton"
@@ -70,7 +81,7 @@ const addbusiness = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-left">
+                <div className="text-center">
                     <button type="submit" className="btn btn-primary">
                         Send Info 💌
                     </button>

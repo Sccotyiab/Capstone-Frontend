@@ -22,18 +22,13 @@ const Businesspage = () => {
                                     <h5 class="card-title">
                                         {business.Business}
                                     </h5>
-                                    <p class="card-text">
-                                        Some quick example text to build on the
-                                        card title and make up the bulk of the
-                                        card's content.
-                                    </p>
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
-                                        {business.Type}
+                                        {business.Owner}
                                     </li>
                                     <li class="list-group-item">
-                                        {business.Owner}
+                                        {business.Type}
                                     </li>
                                     <li class="list-group-item">
                                         {business.Address}

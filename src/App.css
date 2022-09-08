@@ -27,7 +27,7 @@ body {
 
 .img {
     width: 100%;
-    height: auto;
+    height: 25%;
 }
 
 .logo {
@@ -52,8 +52,8 @@ body {
     padding-top: 10%;
     color: white;
     text-decoration: Bold;
-    font-family: "Euphoria Script", cursive;
     font-weight: bold;
+    text-align: center;
 }
 
 form .btn-primary {
@@ -61,6 +61,7 @@ form .btn-primary {
     width: 50%;
     background: #e9b71ee4;
     border: none;
+    font-family: "Euphoria Script", cursive;
 }
 
 form .form-control {
@@ -68,4 +69,19 @@ form .form-control {
     margin-bottom: 15px;
     background: black;
     color: #e9b71ee4;
+    font-family: "Euphoria Script", cursive;
+    border-color: #e9b71ee4;
+}
+
+.card {
+    background: black;
+    font-family: "Euphoria Script", cursive;
+    color: #e9b71ee4;
+    border-color: #e9b71ee4;
+}
+
+.connect {
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
